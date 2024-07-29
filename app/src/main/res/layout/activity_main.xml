@@ -9,29 +9,48 @@
         android:id="@+id/button_audio_player"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reproducir Audio" />
+        android:layout_marginTop="8dp"
+        android:text="Reproducir Audio"
+        android:paddingVertical="12dp" />
 
     <Button
         android:id="@+id/button_video_media_player"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reproducir Video Media Player" />
+        android:layout_marginTop="8dp"
+        android:text="Reproducir Video Media Player"
+        android:paddingVertical="12dp" />
 
     <Button
         android:id="@+id/button_video_surface_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reproducir Video SurfaceView" />
+        android:layout_marginTop="8dp"
+        android:text="Reproducir Video SurfaceView"
+        android:paddingVertical="12dp" />
 
     <Button
         android:id="@+id/button_video_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Reproducir VideoView" />
+        android:layout_marginTop="8dp"
+        android:text="Reproducir VideoView"
+        android:paddingVertical="12dp" />
 
     <Button
         android:id="@+id/button_take_photo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:paddingVertical="12dp"
         android:text="Tomar Foto" />
+
+    <ImageView
+        android:id="@+id/image_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/tu_imagen"
+        android:adjustViewBounds="true"
+        android:scaleType="centerInside" />
 </LinearLayout>
